@@ -416,7 +416,7 @@ function aggiornaSpese(data) {
         dataCell.className = "data";
 
         dataCell.textContent =
-            formattasData(spesa.data);
+            formattaData(spesa.data);
 
         row.appendChild(dataCell);
 
