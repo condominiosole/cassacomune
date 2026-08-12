@@ -330,7 +330,7 @@ def main() -> int:
     parser.add_argument(
         "ods",
         nargs="?",
-        default="Cassa_Comune_Partecipanti(2).ods",
+        default="Cassa_Comune_Partecipanti.ods",
         help="Percorso del file ODS",
     )
     parser.add_argument(
