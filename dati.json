@@ -1,15 +1,15 @@
 {
-  "generato_il": "2026-08-08T23:13:33+02:00",
-  "saldo_cassa": 166.89,
-  "totale_versamenti": 250.0,
+  "generato_il": "2026-08-12T21:50:03+02:00",
+  "saldo_cassa": 181.0,
+  "totale_versamenti": 264.11,
   "totale_spese": 83.11,
   "numero_partecipanti": 6,
   "partecipanti": [
     {
       "nome": "CESCO",
-      "versato": 0.0,
+      "versato": 14.11,
       "consumato": 13.85,
-      "saldo": -13.85
+      "saldo": 0.26
     },
     {
       "nome": "MANU",

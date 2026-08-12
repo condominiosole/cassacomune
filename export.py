@@ -336,7 +336,7 @@ def main() -> int:
     parser.add_argument(
         "-o",
         "--output",
-        default="web/dati.json",
+        default="dati.json",
         help="Percorso del JSON di output",
     )
 
