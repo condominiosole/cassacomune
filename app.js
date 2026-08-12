@@ -297,6 +297,23 @@ function aggiornaPartecipanti(data) {
    TABELLA SPESE
    ========================================================= */
 
+function formattaData(data) {
+    if (!data) return "-";
+
+    const parti = String(data).split(/[-/]/);
+
+    if (parti.length !== 3) {
+        return data;
+    }
+
+    // AAAA/MM/DD oppure AAAA-MM-DD
+    if (parti[0].length === 4) {
+        return `${parti[2].padStart(2, "0")}/${parti[1].padStart(2, "0")}/${parti[0]}`;
+    }
+
+    return data;
+    }
+
 function aggiornaSpese(data) {
 
     const table =
@@ -399,7 +416,7 @@ function aggiornaSpese(data) {
         dataCell.className = "data";
 
         dataCell.textContent =
-            spesa.data || "-";
+            formattasData(spesa.data);
 
         row.appendChild(dataCell);
 
