@@ -1,48 +1,66 @@
 {
-  "generato_il": "2026-08-30T20:47:47+02:00",
-  "saldo_cassa": 143.0,
-  "totale_versamenti": 271.79,
-  "totale_spese": 128.79,
+  "generato_il": "2026-10-05T17:56:51+02:00",
+  "saldo_cassa": 106.5,
+  "totale_versamenti": 279.65,
+  "totale_spese": 173.15,
   "numero_partecipanti": 6,
   "partecipanti": [
     {
       "nome": "CESCO",
-      "versato": 21.79,
-      "consumato": 21.46,
-      "saldo": 0.32
+      "versato": 29.65,
+      "consumato": 28.86,
+      "saldo": 0.79
     },
     {
       "nome": "MANU",
       "versato": 50.0,
-      "consumato": 21.46,
-      "saldo": 28.54
+      "consumato": 28.86,
+      "saldo": 21.14
     },
     {
       "nome": "MATTEO",
       "versato": 50.0,
-      "consumato": 21.46,
-      "saldo": 28.54
+      "consumato": 28.86,
+      "saldo": 21.14
     },
     {
       "nome": "FRANCA",
       "versato": 50.0,
-      "consumato": 21.46,
-      "saldo": 28.54
+      "consumato": 28.86,
+      "saldo": 21.14
     },
     {
       "nome": "ALE",
       "versato": 50.0,
-      "consumato": 21.46,
-      "saldo": 28.54
+      "consumato": 28.86,
+      "saldo": 21.14
     },
     {
       "nome": "MARINELLA",
       "versato": 50.0,
-      "consumato": 21.46,
-      "saldo": 28.54
+      "consumato": 28.86,
+      "saldo": 21.14
     }
   ],
   "ultime_spese": [
+    {
+      "data": "2026-10-02",
+      "descrizione": "BOLLETTA LUCE",
+      "categoria": "",
+      "importo": 44.36,
+      "pagato_da": "CESCO",
+      "partecipanti": [
+        "CESCO",
+        "ALE",
+        "MANU",
+        "MATTEO",
+        "MARINELLA",
+        "FRANCA"
+      ],
+      "numero_partecipanti": 6,
+      "quota_per_partecipante": 7.39,
+      "note": ""
+    },
     {
       "data": "2026-08-30",
       "descrizione": "BOLLETTA LUCE",
